@@ -25,8 +25,8 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        var time = Time.deltaTime/1.5f;
-        rb.velocity -= new Vector3(rb.velocity.x*time, 0, rb.velocity.z * time);
+        var time = Time.deltaTime / 1.5f;
+        rb.velocity -= new Vector3(rb.velocity.x * time, 0, rb.velocity.z * time);
     }
 
     void FixedUpdate()
